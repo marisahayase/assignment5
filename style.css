@@ -2,35 +2,106 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(198, 216, 255);
+}
+
+header {
+    padding-top: 5rem;
+    padding-left: 6rem;
 }
 
 h1 {
     font-family: "Montserrat", sans-serif;
+    font-size: 25px;
 }
 
-.castContainer {
-    text-align: center;
-
+h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
 }
 
-.cropContainer {
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
 }
 
+.cardsContainer img {
+    color: red;
+}
 
-.castCard {
+.movieCard {
+    flex: 25%;
+    padding-left: 2rem;
+}
+
+/*
+.movieCard {
     display: inline-block;
     padding: 1rem;
     margin-bottom: 5rem;
 }
+*/
 
-.castCard img {
-    width: 300px;
 
+.cropContainer {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
 }
 
-.castCard h4 {
+.movieCard img {
+    width: 250px;
+}
+
+.movieCard h4 {
     padding-top: 1rem;
+}
+
+.copyContainer {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.column1 {
+    flex: 50%;
+}
+
+.column2 {
+    flex: 50%;
+    padding-left: 5rem;
+}
+
+
+
+.flexboxContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.childFlex h2 {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.childFlex {
+    margin: 2rem;
+}
+
+.test {
+    height: 200px;
+    width: 200px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.test img {
+    width: 200px;
 }
