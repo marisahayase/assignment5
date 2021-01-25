@@ -35,15 +35,6 @@ p {
     padding-left: 2rem;
 }
 
-/*
-.movieCard {
-    display: inline-block;
-    padding: 1rem;
-    margin-bottom: 5rem;
-}
-*/
-
-
 .cropContainer {
     width: 250px;
     height: 250px;
@@ -62,7 +53,7 @@ p {
     display: flex;
     width: 60%;
     margin: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .column1 {
@@ -75,6 +66,8 @@ p {
 }
 
 
+
+/* new styling */
 
 .flexboxContainer {
     display: flex;
@@ -89,6 +82,7 @@ p {
     margin-top: 1rem;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
+    margin-bottom: 1rem;
 }
 
 .childFlex {
@@ -100,8 +94,11 @@ p {
     width: 200px;
     flex: 1;
     overflow: hidden;
+    margin-top: 2rem;
 }
 
 .test img {
     width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
